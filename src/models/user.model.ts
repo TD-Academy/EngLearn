@@ -9,13 +9,10 @@ export class User extends Model {
   Id: number;
   @Column
   firstname: string;
-
   @Column
   lastname: string;
-
   @Column({ primaryKey: true })
   password: string;
-
   @Column
   score: number;
 }
