@@ -7,7 +7,6 @@ export class User extends Model {
 
   @Column
   Id: number;
-
   @Column
   firstname: string;
 
