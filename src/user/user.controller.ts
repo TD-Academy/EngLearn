@@ -28,6 +28,7 @@ export class UserController {
         return user;
     }
 
+    
     @Post('/create')
     createUser(@Body() body: userBody) {
         let user= this.userService.createUser(body)
